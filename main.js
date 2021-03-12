@@ -26,7 +26,7 @@ document.addEventListener("keydown", (evt) => {
 
 // TASK 2 
 
-let span2 = document.getElementById("text2");
+ let span2 = document.getElementById("text2");
 window.addEventListener("load", () => {
   if (innerWidth < 600) {
     span2.innerHTML = "Ви використовуєте мобільну версію";
@@ -48,6 +48,7 @@ window.addEventListener("resize", () => {
 // TASK 3 
 
 let input3 = document.getElementById("input3");
+console.log(input3)
 let span3 = document.getElementById("text3");
 
 
